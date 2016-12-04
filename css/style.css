@@ -13,7 +13,7 @@ body {
 /* Block model*/
 
 body {
-	background: #000 url(/img/background.jpg) no-repeat 50% 3px;
+	background: #000 url(../img/background.jpg) no-repeat 50% 3px;
 	background-size: 1122px auto;
 }
 
@@ -161,7 +161,7 @@ body {
 	left: 20px;
 	width: 18px;
 	height: 18px;
-	background: url("/img/icon-login.png") no-repeat;
+	background: url("../img/icon-login.png") no-repeat;
 	opacity: 0.7;
 }
 
@@ -207,7 +207,7 @@ body {
 
 .index-content {
 	color: #000;
-	background:url("/img/skladka.png") no-repeat center, #f8f5f2 url("/img/fon.png") ;
+	background:url("../img/skladka.png") no-repeat center, #f8f5f2 url("../img/fon.png") ;
 }
 
 .index-content-title {
@@ -343,7 +343,7 @@ body {
 
 .main-footer {
 	color: #fff;
-	background: #252525 url("/img/footer.png");
+	background: #252525 url("../img/footer.png");
 }
 
 .footer-contacts {
@@ -386,7 +386,7 @@ body {
 	vertical-align: top;
 	text-decoration: none;
 	
-	background: #000 url(/img/spritesheet.png) no-repeat center;
+	background: #000 url("../img/spritesheet.png") no-repeat center;
 	
 	transition: 
 		background-position: 1s,
