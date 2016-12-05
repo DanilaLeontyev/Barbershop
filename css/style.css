@@ -13,8 +13,7 @@ body {
 /* Block model*/
 
 body {
-	background: #000 url(../img/background.jpg) no-repeat 50% 3px;
-	background-size: 1122px auto;
+	background: #000 url(../img/background.jpg) no-repeat center top; 
 }
 
 .main-header {
@@ -434,4 +433,47 @@ body {
 .footer-copyright .btn:hover {
 	color: #000;
 	background-color: #fff;
+}
+
+/* price page */
+.main-navigation .logo-inner{
+    float: left;
+    width: 111px;
+    height: 20px;
+    padding-top: 22px;
+}
+
+.main-navigation .logo-inner img {
+    width: 111px;
+    height: 24px;
+}
+
+.main-navigation .logo-inner:hover {
+    background: none;
+}
+
+.main-navigation .active {
+    position: relative;
+    background-color: none;
+}
+
+.main-navigation .active::after {
+    content: "";
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    left: 20px;
+    
+    height: 5px;
+    
+    background-color: #fff;
+}
+
+.main-navigation .active a:hover {
+    background: none;
+}
+
+.main-navigation .active span {
+    display: block;
+    padding: 25px 20px;
 }
